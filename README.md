@@ -1,7 +1,10 @@
 # Final Project Proposal
+
 ### Building a Honeypot
 
-* Use AWS
+* Amazon Web Services
+  * EC2 t2.micro instance 
+  * Ubuntu Server 18 image
 
 ### Logging
 
@@ -37,7 +40,7 @@
 3. [“Honeynets: High Value Security Data”: Analysis of real attacks launched at a honeypot](https://www.sciencedirect.com/science/article/pii/S1353485803008080)
 4. [A hybrid honeypot framework for improving intrusion detection systems in protecting organizational networks](https://www.sciencedirect.com/science/article/pii/S0167404806000587)
 5. [Rapid 7's AWS Honeypots](https://insightidr.help.rapid7.com/docs/aws-honeypots)
-6. 
+6. [Deploying a Honeypot on AWS](https://medium.com/@sudojune/deploying-a-honeypot-on-aws-5bb414753f32)
 
 
 
