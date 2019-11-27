@@ -1,7 +1,6 @@
-all: paper.ps
 pdf: paper.pdf
 
-paper.ps: *.tex *.eps *.bib 
+paper.ps: *.tex *.bib 
 	rubber --ps paper
 
 clean:
