@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.9.13)  27 NOV 2019 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.9.13)  3 DEC 2019 19:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -440,68 +440,75 @@ es
 }
 
 
-] (./considerations.tex) (./related.tex) (./conclusion.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+] (./results.tex <output.png, id=57, 374.5995pt x 195.3699pt>
+File: output.png Graphic file (type png)
+
+<use output.png>
+Package pdftex.def Info: output.png used on input line 39.
+(pdftex.def)             Requested size: 240.0pt x 125.17046pt.
+) (./considerations.tex) (./related.tex) (./conclusion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 \T1/aer/m/n/9 Se-ries. 600-605. 10.1145/1947940.1948065.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 \T1/aer/m/n/9 ey-pot. Net-work Se-cu-rity, 2003(8), 11-15.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 108--110
+Underfull \hbox (badness 6608) in paragraph at lines 112--114
 \T1/aer/m/n/9 [Blog post]. Re-trieved from []https://medium.com/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 \T1/aer/m/n/9 @sudojune/deploying-a-honeypot-on-aws-5bb414753f32[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+[2 <./output.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: BA6A6ED14D000A3F3E4DEFD61999EDEA;388.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+(rerunfilecheck)             Checksum: BC8A7AEA0CF810E9E8BAC594E5358FFB;430.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 6729 strings out of 494910
- 93932 string characters out of 6179836
- 183669 words of memory out of 5000000
- 9891 multiletter control sequences out of 15000+600000
- 41921 words of font info for 56 fonts, out of 8000000 for 9000
+ 6760 strings out of 494910
+ 94237 string characters out of 6179836
+ 186873 words of memory out of 5000000
+ 9908 multiletter control sequences out of 15000+600000
+ 45069 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,8n,28p,744b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,14n,28p,744b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on paper.pdf (2 pages, 72041 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on paper.pdf (2 pages, 1870370 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
