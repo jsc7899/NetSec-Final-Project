@@ -1,3 +1,29 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Fox}
+N.~Fox.
+\newblock Setting up dionaea \& cowrie with mhn.
+\newblock September 2019.
+
+\bibitem{Gathof}
+S.~Gathof.
+\newblock Deploying a honeypot on aws.
+\newblock 2018.
+
+\bibitem{Dynamic}
+I.~Kuwatly, M.~Sraj, Z.~Masri, and H.~Artail.
+\newblock A dynamic honeypot design for intrusion detection.
+\newblock pages 95-- 104, 08 2004.
+
+\bibitem{Polyakov2018ArchitectureOT}
+V.~Polyakov and S.~A. Lapin.
+\newblock Architecture of the honeypot system for studying targeted attacks.
+\newblock {\em 2018 XIV International Scientific-Technical Conference on Actual
+  Problems of Electronics Instrument Engineering (APEIE)}, pages 202--205,
+  2018.
+
+\bibitem{Rapid7}
+Rapid7.
+\newblock {AWS} honeypots.
 
 \end{thebibliography}
