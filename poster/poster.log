@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.4)  15 DEC 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.4)  15 DEC 2019 16:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -465,53 +465,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
-<map.png, id=5, 462.2871pt x 238.491pt>
-File: map.png Graphic file (type png)
-<use map.png>
-Package pdftex.def Info: map.png  used on input line 112.
-(pdftex.def)             Requested size: 853.58267pt x 440.38991pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
-<top_countries.png, id=7, 462.528pt x 346.896pt>
-File: top_countries.png Graphic file (type png)
-<use top_countries.png>
-Package pdftex.def Info: top_countries.png  used on input line 119.
-(pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
-<time_breakdown.png, id=8, 462.528pt x 346.896pt>
-File: time_breakdown.png Graphic file (type png)
-<use time_breakdown.png>
-Package pdftex.def Info: time_breakdown.png  used on input line 126.
-(pdftex.def)             Requested size: 569.05511pt x 426.81186pt.
-<top_os.png, id=9, 462.528pt x 346.896pt>
-File: top_os.png Graphic file (type png)
-<use top_os.png>
-Package pdftex.def Info: top_os.png  used on input line 133.
-(pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
-<images/top_attackers.png, id=10, 1242.6425pt x 891.33pt>
-File: images/top_attackers.png Graphic file (type png)
-<use images/top_attackers.png>
-Package pdftex.def Info: images/top_attackers.png  used on input line 140.
-(pdftex.def)             Requested size: 569.05511pt x 408.1671pt.
-<images/top_users.png, id=11, 1252.68pt x 888.31876pt>
-File: images/top_users.png Graphic file (type png)
-<use images/top_users.png>
-Package pdftex.def Info: images/top_users.png  used on input line 147.
-(pdftex.def)             Requested size: 569.05511pt x 403.5486pt.
-<images/top_pass.png, id=12, 1265.72874pt x 890.32625pt>
-File: images/top_pass.png Graphic file (type png)
-<use images/top_pass.png>
-Package pdftex.def Info: images/top_pass.png  used on input line 154.
-(pdftex.def)             Requested size: 569.05511pt x 400.2899pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 167.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+<map.png, id=5, 462.2871pt x 238.491pt>
+File: map.png Graphic file (type png)
+<use map.png>
+Package pdftex.def Info: map.png  used on input line 127.
+(pdftex.def)             Requested size: 853.58267pt x 440.38991pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+<top_countries.png, id=7, 462.528pt x 346.896pt>
+File: top_countries.png Graphic file (type png)
+<use top_countries.png>
+Package pdftex.def Info: top_countries.png  used on input line 134.
+(pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
+<time_breakdown.png, id=8, 462.528pt x 346.896pt>
+File: time_breakdown.png Graphic file (type png)
+<use time_breakdown.png>
+Package pdftex.def Info: time_breakdown.png  used on input line 141.
+(pdftex.def)             Requested size: 569.05511pt x 426.81186pt.
+<top_os.png, id=9, 462.528pt x 346.896pt>
+File: top_os.png Graphic file (type png)
+<use top_os.png>
+Package pdftex.def Info: top_os.png  used on input line 148.
+(pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
+<images/top_attackers.png, id=10, 1242.6425pt x 891.33pt>
+File: images/top_attackers.png Graphic file (type png)
+<use images/top_attackers.png>
+Package pdftex.def Info: images/top_attackers.png  used on input line 155.
+(pdftex.def)             Requested size: 569.05511pt x 408.1671pt.
+<images/top_users.png, id=11, 1252.68pt x 888.31876pt>
+File: images/top_users.png Graphic file (type png)
+<use images/top_users.png>
+Package pdftex.def Info: images/top_users.png  used on input line 162.
+(pdftex.def)             Requested size: 569.05511pt x 403.5486pt.
+<images/top_pass.png, id=12, 1265.72874pt x 890.32625pt>
+File: images/top_pass.png Graphic file (type png)
+<use images/top_pass.png>
+Package pdftex.def Info: images/top_pass.png  used on input line 169.
+(pdftex.def)             Requested size: 569.05511pt x 400.2899pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
  [1
 
 
@@ -520,18 +520,18 @@ Non-PDF special ignored!
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./map.png> <./top_countrie
 s.png> <./time_breakdown.png> <./top_os.png> <./images/top_attackers.png> <./im
 ages/top_users.png> <./images/top_pass.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
  8016 strings out of 492615
  120378 string characters out of 6131391
- 237407 words of memory out of 5000000
+ 238407 words of memory out of 5000000
  11820 multiletter control sequences out of 15000+600000
  18095 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -540,7 +540,7 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb>
-Output written on poster.pdf (1 page, 3083792 bytes).
+Output written on poster.pdf (1 page, 3083752 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
