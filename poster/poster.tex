@@ -74,26 +74,12 @@
 
 \color{Black} % Navy color for the abstract
 
-\section*{Abstract}
-
-This project aims to build a honeypot server and analyze the data it collects. The goal of a honeypot server is to create vulnerable server on the open internet which we expect will be attacked by malicious actors. These attacks will be logged by the server, then we will analyze the data collected to find common trends in the attacks. Our honeypot will collect data on both an attacking machine and the attacks it directs at the honeypot. Our honeypot server is hosted on an Amazon Web Services (AWS) virtual server instance. The network for the server has been configured to allow all incoming traffic on monitored ports we expect to be targeted (such as SSH). We then analyzed the collected data using Python to find trends in attacker IP addresses, attacker operating systems, attacked ports, and timing of attacks. The honey pot was successful in collecting a large amount of attack data, averaging over 1000 unique data points per day. Our research has determined that a honeypot server is an effective tool for monitoring potential attacks on a network. We have also found honeypots to be highly configurable which allows for the collection of data specific to an organization's needs. 
-%----------------------------------------------------------------------------------------
-%	INTRODUCTION
-%----------------------------------------------------------------------------------------
-
-%\color{SaddleBrown} % SaddleBrown color for the introduction
-
-\section*{Introduction}
-
-A honeypot is a server that is made intentionally vulnerable in order to attract the attention of malicious actors. The server then logs any attempts by attackers to exploit and gain access to it. The goal is for researchers to be able to analyze common trends in the kinds of attacks used by malicious actors and even possibly discover new kinds of attacks that have never been seen before.  
-
-While many different types of honeypot tools exist, we used Modern Honeypot Network (MHN) as the backbone of our project. MHN provides a nice interface for adding particular sensors and viewing data collected over a period of time. As seen in Figure 1.
-\begin{figure}[H]
-	\begin{center}
-	\includegraphics[width=28cm]{mhn.png}
-	\caption{The Modern Honeypot Network Dashboard}
-	\end{center}
-\end{figure} 
+%\begin{figure}[H]
+%	\begin{center}
+%	\includegraphics[width=30cm]{mhn.png}
+%	\caption{The Modern Honeypot Network Dashboard}
+%	\end{center}
+%\end{figure} 
 %\begin{center}[H]
 %	\includegraphics[width=20cm]{mhn.png} % Logo or a photo of you, adjust its dimensions here
 	
@@ -119,15 +105,7 @@ While many different types of honeypot tools exist, we used Modern Honeypot Netw
 %	MATERIALS AND METHODS
 %----------------------------------------------------------------------------------------
 
-\section*{Setup}
-The three sensors used by the honeypot, Dionaea, Cowrie, and Snort, were each initially individually configured through MHN. We then manually configured the logging levels of each sensors to ensure relevant data was logged separately from error and debugging information so that it could be parsed by our Python analysis scripts. 
-
-We have also configured the AWS server's firewall and security groups. We are allowing all inbound network traffic on all ports monitored by the honeypot (SSH, FTP, HTTP(S), etc.) and denying all outbound traffic. SSH access is restricted to our own SSH keys, and the SSH port has been changed from the default of 22 to allow Cowrie to monitor attacks on port 22. Password logins are denied and root login is also denied. 
-
-For data analysis, we used the \texttt{mongoexport} command line tool to export data collected by MHN to JSON files. We used \texttt{SCP} to securely copy these files onto our local machines. Then we used Jupyter notebooks to explore data. Primarily, the \texttt{matplotlib}, \texttt{numpy}, and \texttt{pandas} libraries were used to aid the development of our findings. Additionally, we modified MHN to include a new webpage for particularly interesting findings. Such findings were generated from a daily \texttt{cron} job we set up on the server to run scripts that we developed locally.
-
 \section*{Results}
-
 Our honeypot made over 20,000 detections. We received traffic from all over the world, as you can see in Figure 2. In order to generate this map, we took all the IPs we detected and used the \href{https://github.com/pieqq/PyGeoIpMap}{PyGeoIpMap} library.
 \begin{figure}[H]
 	\begin{center}
@@ -136,7 +114,6 @@ Our honeypot made over 20,000 detections. We received traffic from all over the 
 	\end{center}
 \end{figure} 
 
-Additionally, we tried to break down the frequency with which we detected countries, as can be seen in Figure 3. 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=25cm]{top_countries.png}
@@ -144,22 +121,40 @@ Additionally, we tried to break down the frequency with which we detected countr
 	\end{center}
 \end{figure} 
 
-We also broke down our detections by time of day, as seen in Figure 4.
-
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=25cm]{time_breakdown.png}
+		\includegraphics[width=20cm]{time_breakdown.png}
 		\caption{Breakdown of Detections by Time of Day (UTC)}
 	\end{center}
 \end{figure} 
 
-Finally, we observed the types of operating systems that our "attackers" were using.
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=25cm]{top_os.png}
 		\caption{Breakdown of Detected Operating Systems}
 	\end{center}
 \end{figure} 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=20cm]{images/top_attackers.png}
+		\caption{IP Addresses of Top Attackers}
+	\end{center}
+\end{figure} 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=20cm]{images/top_users.png}
+		\caption{Top Usernames Attempted}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=20cm]{images/top_pass.png}
+		\caption{Top Passwords Attempted}
+	\end{center}
+\end{figure}
 
 
 %------------------------------------------------

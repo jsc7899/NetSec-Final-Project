@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.9.13)  15 DEC 2019 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.9.13)  15 DEC 2019 15:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -474,81 +474,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--57
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
-<mhn.png, id=4, 461.8053pt x 235.8411pt>
-File: mhn.png Graphic file (type png)
- <use mhn.png>
-Package pdftex.def Info: mhn.png used on input line 93.
-(pdftex.def)             Requested size: 796.67715pt x 406.90547pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 127.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-<map.png, id=6, 462.2871pt x 238.491pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+<map.png, id=5, 462.2871pt x 238.491pt>
 File: map.png Graphic file (type png)
  <use map.png>
-Package pdftex.def Info: map.png used on input line 134.
+Package pdftex.def Info: map.png used on input line 112.
 (pdftex.def)             Requested size: 853.58267pt x 440.38991pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 
-<top_countries.png, id=8, 462.528pt x 346.896pt>
+<top_countries.png, id=7, 462.528pt x 346.896pt>
 File: top_countries.png Graphic file (type png)
  <use top_countries.png>
-Package pdftex.def Info: top_countries.png used on input line 142.
+Package pdftex.def Info: top_countries.png used on input line 119.
 (pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
 
-<time_breakdown.png, id=9, 462.528pt x 346.896pt>
+<time_breakdown.png, id=8, 462.528pt x 346.896pt>
 File: time_breakdown.png Graphic file (type png)
  <use time_breakdown.png>
-Package pdftex.def Info: time_breakdown.png used on input line 151.
-(pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
+Package pdftex.def Info: time_breakdown.png used on input line 126.
+(pdftex.def)             Requested size: 569.05511pt x 426.81186pt.
 
-<top_os.png, id=10, 462.528pt x 346.896pt>
+<top_os.png, id=9, 462.528pt x 346.896pt>
 File: top_os.png Graphic file (type png)
  <use top_os.png>
-Package pdftex.def Info: top_os.png used on input line 159.
+Package pdftex.def Info: top_os.png used on input line 133.
 (pdftex.def)             Requested size: 711.3189pt x 533.51749pt.
 
-Overfull \vbox (10.78424pt too high) has occurred while \output is active []
+<images/top_attackers.png, id=10, 1242.6425pt x 891.33pt>
+File: images/top_attackers.png Graphic file (type png)
 
+<use images/top_attackers.png>
+Package pdftex.def Info: images/top_attackers.png used on input line 140.
+(pdftex.def)             Requested size: 569.05511pt x 408.1671pt.
 
-Overfull \vbox (6.4874pt too high) has occurred while \output is active []
+<images/top_users.png, id=11, 1252.68pt x 888.31876pt>
+File: images/top_users.png Graphic file (type png)
 
+<use images/top_users.png>
+Package pdftex.def Info: images/top_users.png used on input line 147.
+(pdftex.def)             Requested size: 569.05511pt x 403.5486pt.
 
-[1
+<images/top_pass.png, id=12, 1265.72874pt x 890.32625pt>
+File: images/top_pass.png Graphic file (type png)
+
+<use images/top_pass.png>
+Package pdftex.def Info: images/top_pass.png used on input line 154.
+(pdftex.def)             Requested size: 569.05511pt x 400.2899pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+ [1
 
 
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
-mhn.png> <./map.png> <./top_countries.png> <./time_breakdown.png> <./top_os.png
->]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
- (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+map.png> <./top_countries.png> <./time_breakdown.png> <./top_os.png> <./images/
+top_attackers.png> <./images/top_users.png> <./images/top_pass.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+
+(./poster.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 8039 strings out of 494910
- 120516 string characters out of 6179836
- 247578 words of memory out of 5000000
- 11218 multiletter control sequences out of 15000+600000
- 16727 words of font info for 33 fonts, out of 8000000 for 9000
+ 8014 strings out of 494910
+ 120319 string characters out of 6179836
+ 230578 words of memory out of 5000000
+ 11196 multiletter control sequences out of 15000+600000
+ 16212 words of font info for 31 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,7n,39p,1207b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,7n,39p,480b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb>
-Output written on poster.pdf (1 page, 3048921 bytes).
+e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb>
+Output written on poster.pdf (1 page, 3088257 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
